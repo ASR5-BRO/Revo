@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg-color);
+}
+:root{
+    --bg-color: #191825;
+    --head-color: #865DFF;
+    --color:#E384FF;
+    --hover: #FFA3FD;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--head-color);
+    margin: 10px 10px 0px;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 3px black;
+
+}
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 25px;
+    font-weight: 700;
+    color: var(--color);
+}
+.logo:hover{
+    color: var(--hover);
+    transition: .2s ease-in-out;
+}
+.navigation{
+    margin: 10px;
+}
+.navigation a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left:15px;
+    color: var(--color);
+}
+.navigation a:hover{
+    color: var(--hover);
+    transition: .2s ease-in-out;
+}
+.main h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--color);
+    margin-top: 70pc;
+}
+.main h2 span{
+    color: var(--head-color);
+}
+.main h2 span:hover{
+    color: var(--hover);
+    transition: .3s ease-in-out;
+}
+.main h3{
+    color: var(--hover);
+    font-size: 30px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
