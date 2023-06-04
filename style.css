@@ -5,12 +5,15 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--bg-color);
+    background: url(/images/blurry-gradient-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 :root{
     --bg-color: #191825;
     --head-color: #865DFF;
-    --color:#E384FF;
+    --color:#fff;
+    --second-color: #E384FF;
     --hover: #FFA3FD;
 }
 header{
@@ -52,8 +55,8 @@ header{
 .main h2{
     font-size: 40px;
     font-weight: 800;
-    color: var(--color);
-    margin-top: 70pc;
+    color: var(--second-color);
+    
 }
 .main h2 span{
     color: var(--head-color);
@@ -63,7 +66,13 @@ header{
     transition: .3s ease-in-out;
 }
 .main h3{
-    color: var(--hover);
+    color: var(--color);
+    font-size: 30px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.main p{
+    color: var(--color);
     font-size: 30px;
     font-weight: 600px;
     margin-top: 20px;
